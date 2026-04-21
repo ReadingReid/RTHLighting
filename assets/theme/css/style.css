@@ -374,6 +374,7 @@ nav .mbr-section-btn {
 
 [type=submit] {
   -webkit-appearance: none;
+  appearance: none;
 }
 
 /*! Full-screen */
@@ -586,14 +587,20 @@ nav .mbr-section-btn {
 .navbar {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-align-items: center;
+  align-items: center;
   -webkit-justify-content: space-between;
+  justify-content: space-between;
 }
 
 .navbar-collapse {
   -webkit-flex-basis: 100%;
+  flex-basis: 100%;
   -webkit-flex-grow: 1;
+  flex-grow: 1;
   -webkit-align-items: center;
+  align-items: center;
 }
 
 .nav-dropdown .link {
@@ -604,15 +611,18 @@ nav .mbr-section-btn {
 .nav {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .row {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .justify-content-center {
   -webkit-justify-content: center;
+  justify-content: center;
 }
 
 .form-inline {
@@ -621,6 +631,7 @@ nav .mbr-section-btn {
 
 .card-wrapper {
   -webkit-flex: 1;
+  flex: 1;
 }
 
 .carousel-control {
