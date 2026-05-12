@@ -16,7 +16,6 @@ button {
   border-color: transparent;
 }
 
-.embla__button,
 .carousel-control {
   background-color: #edefea !important;
   opacity: 0.8 !important;
@@ -47,7 +46,6 @@ button {
   opacity: 0.8 !important;
 }
 
-.embla__button:hover,
 .carousel-control:hover {
   background-color: #edefea !important;
   opacity: 1 !important;
@@ -636,10 +634,6 @@ nav .mbr-section-btn {
 
 .carousel-control {
   z-index: 10;
-  display: -webkit-flex;
-}
-
-.carousel-controls {
   display: -webkit-flex;
 }
 
