@@ -17,3 +17,7 @@ a img:hover
 
 input.form-control:focus, textarea.form-control:focus 
     {background-color: rgb(224, 224, 224);}
+
+.video
+    {display: flex;
+    justify-content: center;}
